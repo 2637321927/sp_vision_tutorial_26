@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project(homework_1)
+find_package(OpenCV REQUIRED)
+find_package(fmt REQUIRED)  
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(main homework_1/main.cpp homework_1/tool.hpp homework_1/tool.cpp)
+target_link_libraries(main ${OpenCV_LIBS})
+target_link_libraries(main fmt::fmt)
