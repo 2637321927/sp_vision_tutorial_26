@@ -1,8 +1,8 @@
 __pycache__/
 .venv/
-.DS_Store
-.vscode
-lecture3/*/main
-lecture3/*/answer
-lecture3/homework/build
-lecture3/homework/logs
+.DS_Store/
+.vscode/
+.build/
+records/
+logs/
+
