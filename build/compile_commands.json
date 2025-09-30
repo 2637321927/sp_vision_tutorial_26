@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/suncongsun/Desktop/A/sp_vision_tutorial_26/build",
+  "command": "/usr/bin/g++ -DFMT_LOCALE -DFMT_SHARED -isystem /usr/include/opencv4 -g -o CMakeFiles/main.dir/main.cpp.o -c /home/suncongsun/Desktop/A/sp_vision_tutorial_26/homework_1/main.cpp",
+  "file": "/home/suncongsun/Desktop/A/sp_vision_tutorial_26/homework_1/main.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/A/sp_vision_tutorial_26/build",
+  "command": "/usr/bin/g++ -DFMT_LOCALE -DFMT_SHARED -isystem /usr/include/opencv4 -g -o CMakeFiles/main.dir/tool.cpp.o -c /home/suncongsun/Desktop/A/sp_vision_tutorial_26/homework_1/tool.cpp",
+  "file": "/home/suncongsun/Desktop/A/sp_vision_tutorial_26/homework_1/tool.cpp"
+}
+]

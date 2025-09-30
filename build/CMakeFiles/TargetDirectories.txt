@@ -1,0 +1,3 @@
+/home/suncongsun/Desktop/A/sp_vision_tutorial_26/build/CMakeFiles/main.dir
+/home/suncongsun/Desktop/A/sp_vision_tutorial_26/build/CMakeFiles/edit_cache.dir
+/home/suncongsun/Desktop/A/sp_vision_tutorial_26/build/CMakeFiles/rebuild_cache.dir

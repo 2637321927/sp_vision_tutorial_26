@@ -35,20 +35,24 @@ int main()
     MV_CC_DEVICE_INFO_LIST device_list;
     ret = MV_CC_EnumDevices(MV_USB_DEVICE, &device_list);
     if (ret != MV_OK) {
+      std::cout<<"error"<<std::endl;
       return -1;
     }
   
     if (device_list.nDeviceNum == 0) {
+      std::cout<<"error"<<std::endl;
       return -1;
     }
   
     ret = MV_CC_CreateHandle(&handle, device_list.pDeviceInfo[0]);
     if (ret != MV_OK) {
+      std::cout<<"error"<<std::endl;
       return -1;
     }
   
     ret = MV_CC_OpenDevice(handle);
     if (ret != MV_OK) {
+      std::cout<<"error"<<std::endl;
       return -1;
     }
   
@@ -62,6 +66,7 @@ int main()
     // 读取一帧图像
     ret = MV_CC_StartGrabbing(handle);
     if (ret != MV_OK) {
+      std::cout<<"error"<<std::endl;
       return -1;
     }
   

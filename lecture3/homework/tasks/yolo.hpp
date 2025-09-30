@@ -1,6 +1,5 @@
 #ifndef AUTO_AIM__YOLO_HPP
 #define AUTO_AIM__YOLO_HPP
-
 #include <opencv2/opencv.hpp>
 
 #include "armor.hpp"
