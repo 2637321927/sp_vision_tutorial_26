@@ -8,63 +8,66 @@ myCamera::myCamera()
     MV_CC_DEVICE_INFO_LIST device_list;
     ret = MV_CC_EnumDevices(MV_USB_DEVICE, &device_list);
     if (ret != MV_OK) {
+      std::cout<<"error1"<<std::endl;
       is_opened_=0;
-      return;
     }
   
     if (device_list.nDeviceNum == 0) {
-      is_opened_=0;
-      return;
+      std::cout<<"error2"<<std::endl;
+     is_opened_=0;
     }
   
     ret = MV_CC_CreateHandle(&handle_, device_list.pDeviceInfo[0]);
     if (ret != MV_OK) {
+      std::cout<<"error3"<<std::endl;
       is_opened_=0;
-      return;
     }
   
     ret = MV_CC_OpenDevice(handle_);
     if (ret != MV_OK) {
+      std::cout<<"error4"<<std::endl;
       is_opened_=0;
-      return;
     }
   
     MV_CC_SetEnumValue(handle_, "BalanceWhiteAuto", MV_BALANCEWHITE_AUTO_CONTINUOUS);
     MV_CC_SetEnumValue(handle_, "ExposureAuto", MV_EXPOSURE_AUTO_MODE_OFF);
     MV_CC_SetEnumValue(handle_, "GainAuto", MV_GAIN_MODE_OFF);
-    MV_CC_SetFloatValue(handle_, "ExposureTime", 10000);
+    MV_CC_SetFloatValue(handle_, "ExposureTime", 1000);
     MV_CC_SetFloatValue(handle_, "Gain", 20);
     MV_CC_SetFrameRate(handle_, 60);
+      ret = MV_CC_StartGrabbing(handle_);
+    if (ret != MV_OK) {
+      std::cout<<"error5"<<std::endl;
+     is_opened_=0;
+    }
 }
 myCamera::~myCamera()
 {
             // 关闭相机
+
     MV_CC_StopGrabbing(handle_);
     MV_CC_CloseDevice(handle_);
     MV_CC_DestroyHandle(handle_);
 }
 int myCamera::read(cv::Mat& img)
 {
-    if(is_opened_==0){
-        return -1;
-    }
-    int ret;
-     // 读取一帧图像
-    ret = MV_CC_StartGrabbing(handle_);
-    if (ret != MV_OK) {
-      return -1;
-    }
+
+  if(is_opened_==0){
+    return -1;
+  }
+    int ret=0;
+    // 读取一帧图像
   
     MV_FRAME_OUT raw;
     unsigned int nMsec = 100;
 
     ret = MV_CC_GetImageBuffer(handle_, &raw, nMsec);
     if (ret != MV_OK) {
+      std::cout<<ret<<std::endl;
       return -1;
     }
 
     img = transfer(raw);
-
     ret = MV_CC_FreeImageBuffer(handle_, &raw);
     if (ret != MV_OK) {
       return -1;

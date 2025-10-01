@@ -9,7 +9,7 @@ class myCamera
     int read(cv::Mat& img);
     private:
     void * handle_;
-    bool is_opened_;
+    bool is_opened_=1;
     cv::Mat transfer(MV_FRAME_OUT& raw);
     
 };

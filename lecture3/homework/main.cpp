@@ -8,6 +8,7 @@ int main()
     // 初始化相机、yolo类
     auto_aim::YOLO test_yolo("homework/configs/yolo.yaml", true);
     myCamera test_camera;
+
     //测试用
     /*std::string inPath="homework/test_4.jpg";
     cv::Mat img = cv::imread(inPath);
@@ -52,7 +53,7 @@ int main()
 
         cv::resize(img, img , cv::Size(640, 480));
         cv::imshow("img", img);
-        if (cv::waitKey(0) == 'q') {
+        if (cv::waitKey(1) == 'q') {
         break;
         }
     }
