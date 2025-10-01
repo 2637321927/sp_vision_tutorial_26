@@ -64,8 +64,6 @@ int myCamera::read(cv::Mat& img)
     }
 
     img = transfer(raw);
-    cv::imshow("img", img);
-    cv::waitKey(0);
 
     ret = MV_CC_FreeImageBuffer(handle_, &raw);
     if (ret != MV_OK) {

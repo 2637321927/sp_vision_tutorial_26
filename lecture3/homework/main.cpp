@@ -9,7 +9,7 @@ int main()
     auto_aim::YOLO test_yolo("homework/configs/yolo.yaml", true);
     myCamera test_camera;
     //测试用
-    /*std::string inPath="homework/test.jpg";
+    /*std::string inPath="homework/test_4.jpg";
     cv::Mat img = cv::imread(inPath);
     std::list<auto_aim::Armor> all_armors= test_yolo.detect(img);
         // 处理识别结果，绘图
