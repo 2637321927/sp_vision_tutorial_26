@@ -11,7 +11,7 @@
 namespace auto_aim
 {
 YOLOV5::YOLOV5(const std::string & config_path, bool debug)
-: debug_(debug), detector_(config_path, false)
+: debug_(debug)
 {
   auto yaml = YAML::LoadFile(config_path);
 
@@ -25,7 +25,6 @@ YOLOV5::YOLOV5(const std::string & config_path, bool debug)
   width = yaml["roi"]["width"].as<int>();
   height = yaml["roi"]["height"].as<int>();
   use_roi_ = yaml["use_roi"].as<bool>();
-  use_traditional_ = yaml["use_traditional"].as<bool>();
   roi_ = cv::Rect(x, y, width, height);
   offset_ = cv::Point2f(x, y);
 
@@ -180,8 +179,6 @@ std::list<Armor> YOLOV5::parse(
       it = armors.erase(it);
       continue;
     }
-    // 使用传统方法二次矫正角点
-    if (use_traditional_) detector_.detect(*it, bgr_img);
 
     it->center_norm = get_center_norm(bgr_img, it->center);
     ++it;

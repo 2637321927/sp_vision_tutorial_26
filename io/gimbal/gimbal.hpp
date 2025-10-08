@@ -49,8 +49,6 @@ enum class GimbalMode
 {
   IDLE,        // 空闲
   AUTO_AIM,    // 自瞄
-  SMALL_BUFF,  // 小符
-  BIG_BUFF     // 大符
 };
 
 struct GimbalState
@@ -76,8 +74,7 @@ public:
   Eigen::Quaterniond q(std::chrono::steady_clock::time_point t);
 
   void send(
-    bool control, bool fire, float yaw, float yaw_vel, float yaw_acc, float pitch, float pitch_vel,
-    float pitch_acc);
+    bool control, bool fire, float yaw, float pitch);
 
   void send(io::VisionToGimbal VisionToGimbal);
 

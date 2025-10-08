@@ -8,7 +8,6 @@
 #include <vector>
 
 #include "tasks/auto_aim/armor.hpp"
-#include "tasks/auto_aim/detector.hpp"
 #include "tasks/auto_aim/yolo.hpp"
 
 namespace auto_aim
@@ -26,7 +25,7 @@ public:
 private:
   std::string device_, model_path_;
   std::string save_path_, debug_path_;
-  bool debug_, use_roi_, use_traditional_;
+  bool debug_, use_roi_;
 
   const int class_num_ = 13;
   const float nms_threshold_ = 0.3;
@@ -40,7 +39,6 @@ private:
   cv::Point2f offset_;
   cv::Mat tmp_img_;
 
-  Detector detector_;
   friend class MultiThreadDetector;
 
   bool check_name(const Armor & armor) const;
