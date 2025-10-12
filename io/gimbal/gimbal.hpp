@@ -76,8 +76,6 @@ public:
   void send(
     bool control, bool fire, float yaw, float pitch);
 
-  void send(io::VisionToGimbal VisionToGimbal);
-
 private:
   serial::Serial serial_;
 
