@@ -8,7 +8,6 @@ device: GPU
 min_confidence: 0.8
 use_traditional: true
 
-#####-----aimer参数-----#####
 yaw_offset: 2 # degree -2.5
 pitch_offset: 6.5 # degree 2
 
