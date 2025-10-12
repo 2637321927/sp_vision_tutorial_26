@@ -18,7 +18,8 @@ Target::Target(
   t_(t),
   is_switch_(false),
   is_converged_(false),
-  switch_count_(0)
+  switch_count_(0),
+  isinit(true)
 {
   priority = armor.priority;
 
