@@ -25,8 +25,7 @@ public:
 
   Target() = default;
   Target(
-    const Armor & armor, std::chrono::steady_clock::time_point t, double radius, int armor_num,
-    Eigen::VectorXd P0_dig);
+    const Armor & armor, std::chrono::steady_clock::time_point t, Eigen::VectorXd P0_dig, double radius = 0.2, int armor_num = 4);
 
   void predict(std::chrono::steady_clock::time_point t);
   void predict(double dt);

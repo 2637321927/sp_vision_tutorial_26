@@ -8,8 +8,7 @@
 namespace auto_aim
 {
 Target::Target(
-  const Armor & armor, std::chrono::steady_clock::time_point t, double radius, int armor_num,
-  Eigen::VectorXd P0_dig)
+  const Armor & armor, std::chrono::steady_clock::time_point t, Eigen::VectorXd P0_dig, double radius, int armor_num)
 : name(armor.name),
   armor_type(armor.type),
   jumped(false),
