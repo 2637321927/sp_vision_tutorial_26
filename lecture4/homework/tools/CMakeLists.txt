@@ -5,3 +5,8 @@ add_library(tools OBJECT
     logger.cpp
     plotter.cpp
 )
+target_include_directories(tools PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}/..  
+    hikrobot/include
+    ${OpenCV_INCLUDE_DIRS}
+)

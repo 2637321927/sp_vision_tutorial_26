@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build",
+  "command": "/usr/bin/g++ -DFMT_LOCALE -DFMT_SHARED -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/opt/MVS/include -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/.. -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/hikrobot/include -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/.. -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/hikrobot/include -isystem /usr/include/eigen3 -isystem /usr/include/opencv4 -isystem //opt/intel/openvino_2024.6.0/runtime/include -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/main.dir/src/main.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/src/main.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/src/main.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build",
+  "command": "/usr/bin/g++ -DFMT_LOCALE -DFMT_SHARED -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/opt/MVS/include -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/.. -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/hikrobot/include -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/.. -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/hikrobot/include -isystem /usr/include/eigen3 -isystem /usr/include/opencv4 -isystem //opt/intel/openvino_2024.6.0/runtime/include -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/video.dir/src/video.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/src/video.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/src/video.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/io",
+  "command": "/usr/bin/g++  -I/opt/MVS/include -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/.. -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/hikrobot/include -g -std=gnu++17 -o CMakeFiles/io.dir/hikrobot/hikrobot.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/hikrobot/hikrobot.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/hikrobot/hikrobot.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/io",
+  "command": "/usr/bin/g++  -I/opt/MVS/include -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/.. -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/hikrobot/include -g -std=gnu++17 -o CMakeFiles/io.dir/camera.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/camera.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/io/camera.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tasks",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/opt/MVS/include -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -isystem //opt/intel/openvino_2024.6.0/runtime/include -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/auto_buff.dir/buff_type.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tasks/buff_type.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tasks/buff_type.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tasks",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/opt/MVS/include -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -isystem //opt/intel/openvino_2024.6.0/runtime/include -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/auto_buff.dir/buff_detector.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tasks/buff_detector.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tasks/buff_detector.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tasks",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/opt/MVS/include -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -isystem //opt/intel/openvino_2024.6.0/runtime/include -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/auto_buff.dir/yolo11_buff.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tasks/yolo11_buff.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tasks/yolo11_buff.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tasks",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/opt/MVS/include -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -isystem //opt/intel/openvino_2024.6.0/runtime/include -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/auto_buff.dir/buff_solver.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tasks/buff_solver.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tasks/buff_solver.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tools",
+  "command": "/usr/bin/g++  -I/opt/MVS/include -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/.. -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/hikrobot/include -g -std=gnu++17 -o CMakeFiles/tools.dir/img_tools.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/img_tools.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/img_tools.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tools",
+  "command": "/usr/bin/g++  -I/opt/MVS/include -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/.. -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/hikrobot/include -g -std=gnu++17 -o CMakeFiles/tools.dir/logger.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/logger.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/logger.cpp"
+},
+{
+  "directory": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tools",
+  "command": "/usr/bin/g++  -I/opt/MVS/include -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/.. -I/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/hikrobot/include -g -std=gnu++17 -o CMakeFiles/tools.dir/plotter.cpp.o -c /home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/plotter.cpp",
+  "file": "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework/tools/plotter.cpp"
+}
+]

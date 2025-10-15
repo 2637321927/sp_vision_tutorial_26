@@ -6,7 +6,7 @@ namespace auto_buff
 {
 YOLO11_BUFF::YOLO11_BUFF()
 {
-  model = core.read_model("assets/yolo11_buff_int8.xml");
+  model = core.read_model("homework/assets/yolo11_buff_int8.xml");
   compiled_model = core.compile_model(model, "CPU");
   infer_request = compiled_model.create_infer_request();
   input_tensor = infer_request.get_input_tensor();

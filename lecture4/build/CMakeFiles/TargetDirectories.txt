@@ -1,0 +1,13 @@
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/CMakeFiles/main.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/CMakeFiles/video.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/CMakeFiles/edit_cache.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/CMakeFiles/rebuild_cache.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/io/CMakeFiles/io.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/io/CMakeFiles/edit_cache.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/io/CMakeFiles/rebuild_cache.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tasks/CMakeFiles/auto_buff.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tasks/CMakeFiles/edit_cache.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tasks/CMakeFiles/rebuild_cache.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tools/CMakeFiles/tools.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tools/CMakeFiles/edit_cache.dir
+/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build/tools/CMakeFiles/rebuild_cache.dir

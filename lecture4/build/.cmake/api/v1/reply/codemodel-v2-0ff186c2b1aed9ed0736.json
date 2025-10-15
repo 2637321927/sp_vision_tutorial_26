@@ -1,0 +1,147 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "io",
+					"jsonFile" : "directory-io-Debug-091f54d7cb5e93581235.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "io",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "tasks",
+					"jsonFile" : "directory-tasks-Debug-a360a5b7067a623185bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tasks",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "tools",
+					"jsonFile" : "directory-tools-Debug-f9645b0170a45a75eff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "Lesson4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "auto_buff::@5caf520a5ad64cffae9d",
+					"jsonFile" : "target-auto_buff-Debug-5dfb7050c2eee12d1578.json",
+					"name" : "auto_buff",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "io::@9998546b0f8df173ae92",
+					"jsonFile" : "target-io-Debug-6a3bfb1c1661c6b5914c.json",
+					"name" : "io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-d360f626bb4115ccdf1d.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tools::@b9a00e55f22b3d77656c",
+					"jsonFile" : "target-tools-Debug-13951e7f697f4f94f255.json",
+					"name" : "tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video-Debug-4007c67906c488d73d2a.json",
+					"name" : "video",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/build",
+		"source" : "/home/suncongsun/Desktop/222/sp_vision_tutorial_26/lecture4/homework"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

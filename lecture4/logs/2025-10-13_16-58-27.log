@@ -1,0 +1,278 @@
+[2025-10-13 16:58:27.709] [info] HikRobot's daemon thread started.
+[2025-10-13 16:58:27.970] [warning] Not found camera!
+[2025-10-13 16:58:28.071] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:28.071] [warning] Unable to open usb!
+[2025-10-13 16:58:28.074] [warning] Not found camera!
+[2025-10-13 16:58:28.175] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:28.175] [warning] Unable to open usb!
+[2025-10-13 16:58:28.177] [warning] Not found camera!
+[2025-10-13 16:58:28.278] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:28.278] [warning] Unable to open usb!
+[2025-10-13 16:58:28.279] [warning] Not found camera!
+[2025-10-13 16:58:28.382] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:28.382] [warning] Unable to open usb!
+[2025-10-13 16:58:28.383] [warning] Not found camera!
+[2025-10-13 16:58:28.484] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:28.484] [warning] Unable to open usb!
+[2025-10-13 16:58:28.485] [warning] Not found camera!
+[2025-10-13 16:58:28.585] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:28.585] [warning] Unable to open usb!
+[2025-10-13 16:58:28.585] [warning] Not found camera!
+[2025-10-13 16:58:28.687] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:28.687] [warning] Unable to open usb!
+[2025-10-13 16:58:28.688] [warning] Not found camera!
+[2025-10-13 16:58:28.788] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:28.788] [warning] Unable to open usb!
+[2025-10-13 16:58:28.789] [warning] Not found camera!
+[2025-10-13 16:58:28.889] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:28.889] [warning] Unable to open usb!
+[2025-10-13 16:58:28.892] [warning] Not found camera!
+[2025-10-13 16:58:28.993] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:28.993] [warning] Unable to open usb!
+[2025-10-13 16:58:28.994] [warning] Not found camera!
+[2025-10-13 16:58:29.094] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:29.098] [warning] Unable to open usb!
+[2025-10-13 16:58:29.099] [warning] Not found camera!
+[2025-10-13 16:58:29.199] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:29.199] [warning] Unable to open usb!
+[2025-10-13 16:58:29.200] [warning] Not found camera!
+[2025-10-13 16:58:29.301] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:29.301] [warning] Unable to open usb!
+[2025-10-13 16:58:29.304] [warning] Not found camera!
+[2025-10-13 16:58:29.405] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:29.405] [warning] Unable to open usb!
+[2025-10-13 16:58:29.405] [warning] Not found camera!
+[2025-10-13 16:58:29.507] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:29.507] [warning] Unable to open usb!
+[2025-10-13 16:58:29.508] [warning] Not found camera!
+[2025-10-13 16:58:29.609] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:29.609] [warning] Unable to open usb!
+[2025-10-13 16:58:29.611] [warning] Not found camera!
+[2025-10-13 16:58:29.711] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:29.712] [warning] Unable to open usb!
+[2025-10-13 16:58:29.713] [warning] Not found camera!
+[2025-10-13 16:58:29.816] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:29.817] [warning] Unable to open usb!
+[2025-10-13 16:58:29.820] [warning] Not found camera!
+[2025-10-13 16:58:29.920] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:29.921] [warning] Unable to open usb!
+[2025-10-13 16:58:29.921] [warning] Not found camera!
+[2025-10-13 16:58:30.022] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:30.025] [warning] Unable to open usb!
+[2025-10-13 16:58:30.026] [warning] Not found camera!
+[2025-10-13 16:58:30.126] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:30.127] [warning] Unable to open usb!
+[2025-10-13 16:58:30.128] [warning] Not found camera!
+[2025-10-13 16:58:30.229] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:30.229] [warning] Unable to open usb!
+[2025-10-13 16:58:30.231] [warning] Not found camera!
+[2025-10-13 16:58:30.332] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:30.332] [warning] Unable to open usb!
+[2025-10-13 16:58:30.332] [warning] Not found camera!
+[2025-10-13 16:58:30.433] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:30.433] [warning] Unable to open usb!
+[2025-10-13 16:58:30.433] [warning] Not found camera!
+[2025-10-13 16:58:30.534] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:30.534] [warning] Unable to open usb!
+[2025-10-13 16:58:30.535] [warning] Not found camera!
+[2025-10-13 16:58:30.636] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:30.636] [warning] Unable to open usb!
+[2025-10-13 16:58:30.637] [warning] Not found camera!
+[2025-10-13 16:58:30.738] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:30.738] [warning] Unable to open usb!
+[2025-10-13 16:58:30.739] [warning] Not found camera!
+[2025-10-13 16:58:30.840] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:30.841] [warning] Unable to open usb!
+[2025-10-13 16:58:30.842] [warning] Not found camera!
+[2025-10-13 16:58:30.944] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:30.944] [warning] Unable to open usb!
+[2025-10-13 16:58:30.944] [warning] Not found camera!
+[2025-10-13 16:58:31.045] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:31.045] [warning] Unable to open usb!
+[2025-10-13 16:58:31.046] [warning] Not found camera!
+[2025-10-13 16:58:31.146] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:31.147] [warning] Unable to open usb!
+[2025-10-13 16:58:31.148] [warning] Not found camera!
+[2025-10-13 16:58:31.249] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:31.249] [warning] Unable to open usb!
+[2025-10-13 16:58:31.250] [warning] Not found camera!
+[2025-10-13 16:58:31.350] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:31.350] [warning] Unable to open usb!
+[2025-10-13 16:58:31.351] [warning] Not found camera!
+[2025-10-13 16:58:31.452] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:31.452] [warning] Unable to open usb!
+[2025-10-13 16:58:31.453] [warning] Not found camera!
+[2025-10-13 16:58:31.554] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:31.554] [warning] Unable to open usb!
+[2025-10-13 16:58:31.555] [warning] Not found camera!
+[2025-10-13 16:58:31.655] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:31.656] [warning] Unable to open usb!
+[2025-10-13 16:58:31.656] [warning] Not found camera!
+[2025-10-13 16:58:31.757] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:31.757] [warning] Unable to open usb!
+[2025-10-13 16:58:31.757] [warning] Not found camera!
+[2025-10-13 16:58:31.858] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:31.858] [warning] Unable to open usb!
+[2025-10-13 16:58:31.859] [warning] Not found camera!
+[2025-10-13 16:58:31.959] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:31.959] [warning] Unable to open usb!
+[2025-10-13 16:58:31.960] [warning] Not found camera!
+[2025-10-13 16:58:32.061] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:32.061] [warning] Unable to open usb!
+[2025-10-13 16:58:32.062] [warning] Not found camera!
+[2025-10-13 16:58:32.162] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:32.163] [warning] Unable to open usb!
+[2025-10-13 16:58:32.164] [warning] Not found camera!
+[2025-10-13 16:58:32.265] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:32.265] [warning] Unable to open usb!
+[2025-10-13 16:58:32.267] [warning] Not found camera!
+[2025-10-13 16:58:32.368] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:32.368] [warning] Unable to open usb!
+[2025-10-13 16:58:32.369] [warning] Not found camera!
+[2025-10-13 16:58:32.470] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:32.470] [warning] Unable to open usb!
+[2025-10-13 16:58:32.471] [warning] Not found camera!
+[2025-10-13 16:58:32.571] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:32.571] [warning] Unable to open usb!
+[2025-10-13 16:58:32.572] [warning] Not found camera!
+[2025-10-13 16:58:32.673] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:32.673] [warning] Unable to open usb!
+[2025-10-13 16:58:32.673] [warning] Not found camera!
+[2025-10-13 16:58:32.774] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:32.775] [warning] Unable to open usb!
+[2025-10-13 16:58:32.776] [warning] Not found camera!
+[2025-10-13 16:58:32.876] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:32.877] [warning] Unable to open usb!
+[2025-10-13 16:58:32.878] [warning] Not found camera!
+[2025-10-13 16:58:32.978] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:32.978] [warning] Unable to open usb!
+[2025-10-13 16:58:32.979] [warning] Not found camera!
+[2025-10-13 16:58:33.080] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:33.080] [warning] Unable to open usb!
+[2025-10-13 16:58:33.081] [warning] Not found camera!
+[2025-10-13 16:58:33.182] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:33.182] [warning] Unable to open usb!
+[2025-10-13 16:58:33.184] [warning] Not found camera!
+[2025-10-13 16:58:33.285] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:33.285] [warning] Unable to open usb!
+[2025-10-13 16:58:33.285] [warning] Not found camera!
+[2025-10-13 16:58:33.386] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:33.386] [warning] Unable to open usb!
+[2025-10-13 16:58:33.387] [warning] Not found camera!
+[2025-10-13 16:58:33.487] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:33.488] [warning] Unable to open usb!
+[2025-10-13 16:58:33.488] [warning] Not found camera!
+[2025-10-13 16:58:33.588] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:33.589] [warning] Unable to open usb!
+[2025-10-13 16:58:33.589] [warning] Not found camera!
+[2025-10-13 16:58:33.690] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:33.691] [warning] Unable to open usb!
+[2025-10-13 16:58:33.693] [warning] Not found camera!
+[2025-10-13 16:58:33.794] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:33.794] [warning] Unable to open usb!
+[2025-10-13 16:58:33.796] [warning] Not found camera!
+[2025-10-13 16:58:33.896] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:33.896] [warning] Unable to open usb!
+[2025-10-13 16:58:33.896] [warning] Not found camera!
+[2025-10-13 16:58:33.997] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:33.997] [warning] Unable to open usb!
+[2025-10-13 16:58:33.997] [warning] Not found camera!
+[2025-10-13 16:58:34.099] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:34.100] [warning] Unable to open usb!
+[2025-10-13 16:58:34.100] [warning] Not found camera!
+[2025-10-13 16:58:34.201] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:34.201] [warning] Unable to open usb!
+[2025-10-13 16:58:34.201] [warning] Not found camera!
+[2025-10-13 16:58:34.301] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:34.302] [warning] Unable to open usb!
+[2025-10-13 16:58:34.302] [warning] Not found camera!
+[2025-10-13 16:58:34.404] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:34.404] [warning] Unable to open usb!
+[2025-10-13 16:58:34.407] [warning] Not found camera!
+[2025-10-13 16:58:34.508] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:34.508] [warning] Unable to open usb!
+[2025-10-13 16:58:34.510] [warning] Not found camera!
+[2025-10-13 16:58:34.611] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:34.612] [warning] Unable to open usb!
+[2025-10-13 16:58:34.612] [warning] Not found camera!
+[2025-10-13 16:58:34.713] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:34.714] [warning] Unable to open usb!
+[2025-10-13 16:58:34.715] [warning] Not found camera!
+[2025-10-13 16:58:34.816] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:34.816] [warning] Unable to open usb!
+[2025-10-13 16:58:34.817] [warning] Not found camera!
+[2025-10-13 16:58:34.917] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:34.917] [warning] Unable to open usb!
+[2025-10-13 16:58:34.917] [warning] Not found camera!
+[2025-10-13 16:58:35.018] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:35.018] [warning] Unable to open usb!
+[2025-10-13 16:58:35.021] [warning] Not found camera!
+[2025-10-13 16:58:35.121] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:35.121] [warning] Unable to open usb!
+[2025-10-13 16:58:35.122] [warning] Not found camera!
+[2025-10-13 16:58:35.222] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:35.222] [warning] Unable to open usb!
+[2025-10-13 16:58:35.223] [warning] Not found camera!
+[2025-10-13 16:58:35.323] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:35.323] [warning] Unable to open usb!
+[2025-10-13 16:58:35.324] [warning] Not found camera!
+[2025-10-13 16:58:35.424] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:35.424] [warning] Unable to open usb!
+[2025-10-13 16:58:35.425] [warning] Not found camera!
+[2025-10-13 16:58:35.527] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:35.527] [warning] Unable to open usb!
+[2025-10-13 16:58:35.528] [warning] Not found camera!
+[2025-10-13 16:58:35.629] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:35.629] [warning] Unable to open usb!
+[2025-10-13 16:58:35.629] [warning] Not found camera!
+[2025-10-13 16:58:35.730] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:35.730] [warning] Unable to open usb!
+[2025-10-13 16:58:35.731] [warning] Not found camera!
+[2025-10-13 16:58:35.831] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:35.832] [warning] Unable to open usb!
+[2025-10-13 16:58:35.833] [warning] Not found camera!
+[2025-10-13 16:58:35.935] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:35.935] [warning] Unable to open usb!
+[2025-10-13 16:58:35.936] [warning] Not found camera!
+[2025-10-13 16:58:36.036] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:36.036] [warning] Unable to open usb!
+[2025-10-13 16:58:36.037] [warning] Not found camera!
+[2025-10-13 16:58:36.138] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:36.138] [warning] Unable to open usb!
+[2025-10-13 16:58:36.139] [warning] Not found camera!
+[2025-10-13 16:58:36.240] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:36.240] [warning] Unable to open usb!
+[2025-10-13 16:58:36.241] [warning] Not found camera!
+[2025-10-13 16:58:36.341] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:36.341] [warning] Unable to open usb!
+[2025-10-13 16:58:36.342] [warning] Not found camera!
+[2025-10-13 16:58:36.443] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:36.443] [warning] Unable to open usb!
+[2025-10-13 16:58:36.444] [warning] Not found camera!
+[2025-10-13 16:58:36.544] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:36.545] [warning] Unable to open usb!
+[2025-10-13 16:58:36.545] [warning] Not found camera!
+[2025-10-13 16:58:36.646] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:36.646] [warning] Unable to open usb!
+[2025-10-13 16:58:36.647] [warning] Not found camera!
+[2025-10-13 16:58:36.747] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:36.747] [warning] Unable to open usb!
+[2025-10-13 16:58:36.749] [warning] Not found camera!
+[2025-10-13 16:58:36.850] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:36.850] [warning] Unable to open usb!
+[2025-10-13 16:58:36.851] [warning] Not found camera!
+[2025-10-13 16:58:36.952] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:36.952] [warning] Unable to open usb!
+[2025-10-13 16:58:36.955] [warning] Not found camera!
+[2025-10-13 16:58:37.055] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:37.055] [warning] Unable to open usb!
+[2025-10-13 16:58:37.056] [warning] Not found camera!
+[2025-10-13 16:58:37.157] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:37.157] [warning] Unable to open usb!
+[2025-10-13 16:58:37.158] [warning] Not found camera!
+[2025-10-13 16:58:37.258] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:37.258] [warning] Unable to open usb!
+[2025-10-13 16:58:37.259] [warning] Not found camera!
+[2025-10-13 16:58:37.360] [warning] MV_CC_StopGrabbing failed: 0x80000000
+[2025-10-13 16:58:37.361] [warning] Unable to open usb!
+[2025-10-13 16:58:37.361] [warning] Not found camera!
