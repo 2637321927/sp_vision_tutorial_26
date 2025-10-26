@@ -11,6 +11,7 @@
 #include "tools/plotter.hpp"
 #include "tools/recorder.hpp"
 #include "tools/exiter.hpp"
+#include "tools/trajectory.hpp"
 
 const std::string keys =
   "{help h usage ? | | 输出命令行参数说明}"
@@ -42,13 +43,37 @@ int main(int argc, char * argv[])
   cv::Mat img;
   Eigen::Quaterniond q;
   std::chrono::steady_clock::time_point t;
-
   while (!exiter.exit()) {
     // Your code start
+    camera.read(img,t);//获取图像和时间戳
+    std::list<auto_aim::Armor> armors=yolo.detect(img);//识别装甲板
+    q=gimbal.q(t);//获取云台四元数
+    solver.set_R_gimbal2world(q);//云台->world juzhen
+    if (!armors.empty()){//若识别到装甲板
+        Eigen::Vector3d gimbal_current_ypr = tools::eulers(q, 2, 1, 0);
 
+        double bullet_speed = gimbal.state().bullet_speed;
+        auto_aim::Armor armor=armors.front();
+        solver.solve(armor);//求解装甲板位姿
+        Eigen::Vector3d  armor_ypd = tools::xyz2ypd(armor.xyz_in_world);
+        double target_yaw = armor_ypd[0];
+        double distance =std::sqrt(armor.xyz_in_world[0]*armor.xyz_in_world[0]+
+        armor.xyz_in_world[1]*armor.xyz_in_world[1]);
+        tools::Trajectory trajectory (bullet_speed, distance, armor.xyz_in_world[2]);//计算弹道
+        double  target_pitch=-trajectory.pitch;
+          // 发送控制指令到云台
+        gimbal.send(true, false, target_yaw, target_pitch);
+        //plotter
+        nlohmann::json data;
+        data["target_yaw"] = target_yaw;
+        data["target_pitch"] = target_pitch;
+        plotter.plot(data);
+    }
+  
 
     // Your code end
-  }
+  
+}
 
 
   return 0;
