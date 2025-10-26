@@ -8,32 +8,58 @@
 #include "tools/plotter.hpp"
 #include "tasks/buff_detector.hpp"
 #include <iostream>
-cv::Point3d backProjectToZ_distort(double u, double v,
-                               const cv::Mat& K,
-                               const cv::Mat& dist,
-                               const cv::Mat& rvec, const cv::Mat& tvec,
-                               double Z)
+cv::Point3d backProjectToZ_distort(double px_x, double px_y,
+                                   const cv::Mat& camera_matrix,
+                                   const cv::Mat& distort_coeffs,
+                                   const cv::Mat& rvec,
+                                   const cv::Mat& tvec,
+                                   double target_z)
 {
-    std::vector<cv::Point2f> src = {{float(u), float(v)}};
-    std::vector<cv::Point2f> dst;
-    undistortPoints(src, dst, K, dist);   
+    // 1. 去畸变
+    std::vector<cv::Point2d> distorted_pts = {{px_x, px_y}};
+    std::vector<cv::Point2d> undistorted_pts;
+    cv::undistortPoints(distorted_pts, 
+                        undistorted_pts, 
+                        camera_matrix, 
+                        distort_coeffs, 
+                        cv::Mat(),
+                        camera_matrix);
 
-    double xn = dst[0].x;
-    double yn = dst[0].y;
-
-    cv::Mat xn_mat = (cv::Mat_<double>(3,1) << xn, yn, 1.0);
-
+    // 提取归一化坐标（u, v）
+    double u = undistorted_pts[0].x;
+    double v = undistorted_pts[0].y;
+    // 旋转向量→旋转矩阵
     cv::Mat R;
-    Rodrigues(rvec, R);
-    double r3xn = R.row(2).t().dot(xn_mat); 
-    double t3   = tvec.at<double>(2);
-    double s    = Z / (r3xn + t3);
+    cv::Rodrigues(rvec, R); // R: 3x3旋转矩阵（世界→相机）
+    // 反投影公式推导：已知Z=target_z，解X、Y（相机坐标系）
+    double R11 = R.at<double>(0, 0), R12 = R.at<double>(0, 1), R13 = R.at<double>(0, 2);
+    double R21 = R.at<double>(1, 0), R22 = R.at<double>(1, 1), R23 = R.at<double>(1, 2);
+    double R31 = R.at<double>(2, 0), R32 = R.at<double>(2, 1), R33 = R.at<double>(2, 2);
 
-    cv::Mat Xw = s * xn_mat;
-    return cv::Point3d(Xw.at<double>(0),
-                   Xw.at<double>(1),
-                   Xw.at<double>(2));
+    double tx = tvec.at<double>(0, 0);
+    double ty = tvec.at<double>(1, 0);
+    double tz = tvec.at<double>(2, 0);
+
+    // 解线性方程得到相机坐标系下的3D点（Xc, Yc, Zc=target_z）
+    double denominator = R31 * u + R32 * v + R33;
+    if (std::fabs(denominator) < 1e-6)
+    {
+        std::cerr << "[backProject] Error: Denominator is zero, invalid projection!" << std::endl;
+        return cv::Point3d(0, 0, 0);
+    }
+
+    double Xc = ( (target_z + tz) * u - R11 * tx - R12 * ty - R13 * tz ) / denominator - (R13 * target_z)/denominator;
+    double Yc = ( (target_z + tz) * v - R21 * tx - R22 * ty - R23 * tz ) / denominator - (R23 * target_z)/denominator;
+
+    // 转换为世界坐标系（相机→世界：R^T*(Xc - tx, Yc - ty, Zc - tz)）
+    cv::Mat camera_point = (cv::Mat_<double>(3, 1) << Xc, Yc, target_z);
+    cv::Mat world_point = R.t() * (camera_point - tvec);
+
+    return cv::Point3d(world_point.at<double>(0,0), 
+                       world_point.at<double>(1,0), 
+                       world_point.at<double>(2,0));
 }
+
 cv::Point2d circleCenter3P(const cv::Point2d& p1,
                            const cv::Point2d& p2,
                            const cv::Point2d& p3
@@ -148,12 +174,12 @@ int main()
         tools::Plotter plotter;
         nlohmann::json data;
         if(1){
-        data["center_x"] = pt2d.x;
-        data["center_y"] = pt2d.y;
+        data["center_x"] = pt3d.x;
+        data["center_y"] = pt3d.y;
         data["center_z"] = z;
         if(circle==0&&yes==1){
-        data["R_x"] = pt2d_R.x;
-        data["R_y"] = pt2d_R.y;
+        data["R_x"] = pt3d_R.x;
+        data["R_y"] = pt3d_R.y;
         data["R_z"] = z;
         }
     }
